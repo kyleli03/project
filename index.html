@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Navigation Game</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+	<script>
+		function clickedfirst() {
+			let btndiv = document.getElementById("buttondiv");
+			btndiv.innerHTML = "";
+			let numbuttons = Math.floor(Math.random() * 35 + 10);
+			for (let i = 0; i < numbuttons; i++) {
+				let btn = document.createElement("input");
+				btn.type = "image";
+				btn.src = "images/playbutton.png";
+				btndiv.appendChild(btn);
+			}
+			let randidx = Math.floor(Math.random() * numbuttons);
+			btndiv.childNodes[randidx].onclick = () => {
+				window.location.href = "page2.html";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h2><pre> Welcome to my website! This is essentially a showcase of the skills 
+	I have learned about Dreamweaver in this course. As you navigate through, 
+	you'll notice the tricks I have picked up while taking this class. 
+	A green play button will lead you to the
+	next page. Lets begin! </pre></h2>
+		
+	<div id="buttondiv">
+	<input type="image" src="images/playbutton.png" alt=""
+		   onclick="clickedfirst()"/>
+	</div>
+</body>
+</html>

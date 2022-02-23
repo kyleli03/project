@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body {
+	text-align: center;
+	background-color: #524E4E;
+}
+
+input:hover {
+	cursor: pointer;
+}
+
