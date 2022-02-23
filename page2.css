@@ -7,3 +7,8 @@ background-color: #524E4E;
 a:hover{
 	cursor : pointer;
 }
+a:visited, a:link{
+	color: #524E4E;
+	text-decoration: none;
+	text-decoration-color: #524E4E;
+}

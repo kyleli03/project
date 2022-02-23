@@ -1,10 +1,16 @@
 @charset "UTF-8";
-body {
+body{
 	text-align: center;
-	background-color: #524E4E;
+background-color: #524E4E;
 }
 
-input:hover {
-	cursor: pointer;
+a:hover{
+	cursor : pointer;
+}
+
+a:visited, a:link{
+	color: #524E4E;
+	text-decoration: none;
+	text-decoration-color: #524E4E;
 }
 
