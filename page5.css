@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+	text-align: center;
+background-color: #524E4E;
+}
+
+a:hover{
+	cursor : pointer;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
